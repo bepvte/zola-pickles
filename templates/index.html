@@ -39,15 +39,10 @@
         {%- endblock js %}
 
         {% block css -%}
-        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
         <link rel="stylesheet" href="{{ get_url(path="base.css") }}" />
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-        <link href="{{ get_url(path="fontawesome/fontawesome.css") }}" rel="stylesheet">
-        <link href="{{ get_url(path="fontawesome/brands.css") }}" rel="stylesheet">
-        <link href="{{ get_url(path="fontawesome/solid.css") }}" rel="stylesheet">
         {%- endblock css %}
 
-        <link rel='icon' type='image/x-icon' href="{{ get_url(path="favicon.ico") }}" />
+	<!-- <link rel='icon' type='image/x-icon' href="{{ get_url(path="favicon.ico") }}" /> -->
 
         {% if config.generate_feed -%}
         <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path="atom.xml") }}">

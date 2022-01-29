@@ -6,9 +6,10 @@ $link-color: #337ab7;
 $link-hover: #175081;
 $fig-height: 45em;
 
-$SanFrancisco: -apple-system, BlinkMacSystemFont, YakuHanJP,
-  'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-$SourceSansPro: 'Source Sans Pro', sans-serif;
+// $SanFrancisco: -apple-system, BlinkMacSystemFont, YakuHanJP,
+  // 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+$SanFrancisco: sans-serif;
+$SourceSansPro: sans-serif;
 
 // min-width
 $breakpoint-up: (
